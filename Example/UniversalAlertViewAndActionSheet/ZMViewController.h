@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UniversalAlertViewAndActionSheet/UniversalActionSheet.h"
+#import "UniversalAlertViewAndActionSheet/UniversalAlertView.h"
 
 @interface ZMViewController : UIViewController
 

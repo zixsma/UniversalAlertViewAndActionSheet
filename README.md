@@ -5,11 +5,20 @@
 [![License](https://img.shields.io/cocoapods/l/UniversalAlertViewAndActionSheet.svg?style=flat)](http://cocoadocs.org/docsets/UniversalAlertViewAndActionSheet)
 [![Platform](https://img.shields.io/cocoapods/p/UniversalAlertViewAndActionSheet.svg?style=flat)](http://cocoadocs.org/docsets/UniversalAlertViewAndActionSheet)
 
+## What is it?
+This is a library for presenting UIKit AlertView and ActionSheet on iOS5+ with a single api.
+
+## Why should I use?
+Because of iOS7- and iOS8+ are using a difference api for AlertView and ActionSheet. If you want to use a native UIKit AlertView and ActionSheet, you should use this.
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+- BlockKit
+- UIKit
 
 ## Installation
 
@@ -20,7 +29,7 @@ it, simply add the following line to your Podfile:
 
 ## Author
 
-Tanakrit Saisillapee, tanakrit@nimbl3.com
+Tanakrit Saisillapee, zixsma@hotmail.com
 
 ## License
 

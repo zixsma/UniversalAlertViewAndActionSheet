@@ -1,0 +1,45 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - Expecta (0.3.2)
+  - Expecta+Snapshots (1.3.1):
+    - Expecta
+    - FBSnapshotTestCase
+  - FBSnapshotTestCase (1.5)
+  - Specta (0.4.0)
+  - UniversalAlertViewAndActionSheet (0.1.0):
+    - BlocksKit (~> 2.2)
+
+DEPENDENCIES:
+  - Expecta
+  - Expecta+Snapshots
+  - FBSnapshotTestCase
+  - Specta
+  - UniversalAlertViewAndActionSheet (from `../`)
+
+EXTERNAL SOURCES:
+  UniversalAlertViewAndActionSheet:
+    :path: ../
+
+SPEC CHECKSUMS:
+  BlocksKit: 4439e7f30a9f90743462ca63545a15c1f4304cef
+  Expecta: ee641011fe10aa1855d487b40e4976dac50ec342
+  Expecta+Snapshots: 4a56b9411c6ed156987072e52c39de67d864015a
+  FBSnapshotTestCase: e2914fbaabccea1dcc773d6a16b1c24540642488
+  Specta: 1df326d6ec48603c77f507a0ab1f89ad2df1c582
+  UniversalAlertViewAndActionSheet: bb7054664bdf4f8e40acc03470e498f8fcb2afe2
+
+COCOAPODS: 0.36.0
