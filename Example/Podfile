@@ -1,0 +1,14 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'UniversalAlertViewAndActionSheet', :exclusive => true do
+  pod "UniversalAlertViewAndActionSheet", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "UniversalAlertViewAndActionSheet", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
